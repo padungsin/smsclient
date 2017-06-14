@@ -1,0 +1,11 @@
+#!/bin/bash
+ 
+USERNAME=demo
+PASSWORD=demo
+FROM=0000
+TO=0898765432
+MESSAGE=Test
+curl -q "http://www.thsms.com/api/rest?method=send&username=$USERNAME&password=$PASSWORD&from=$FROM&to=$TO&message=$MESSAGE"
+
+user: padungsin
+password: f46280
